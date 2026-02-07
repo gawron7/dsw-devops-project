@@ -1,0 +1,7 @@
+name: "Hello DevOps Action"
+description: "Custom GitHub Action for DevOps project"
+runs:
+  using: "composite"
+  steps:
+    - run: echo "Własnoręcznie napisana akcja GitHub Actions działa 🚀"
+      shell: bash
